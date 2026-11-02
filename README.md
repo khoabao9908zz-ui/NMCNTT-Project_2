@@ -1,6 +1,6 @@
 # ♻️ AI Waste Classifier - Smart Waste Sorting Application
 
-> Introduction to Information Technology Project - HCMUS 🎓
+> Introduction to Information Technology Project - HCMUS
 
 ## Introduction
 This application utilizes Google Gemini 1.5 Flash API combined with a Streamlit web interface to assist users in classifying waste (Organic, Inorganic, Recyclable) through photos taken directly via Webcam or uploaded from a computer[cite: 1, 2].
