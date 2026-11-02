@@ -1,5 +1,6 @@
 # ♻️ AI Waste Classifier - Smart Waste Sorting Application
 
+
 ## Introduction
 This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit web interface to assist users in classifying waste (Organic, Inorganic, Recyclable) through photos taken directly via Webcam or uploaded from a computer.
 
