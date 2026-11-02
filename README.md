@@ -27,7 +27,7 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
    - **Presentation (2 mins):** Explained data processing, PDF cleaning, and CSV structure.
 
 3. **Tran Nhat Nam** - AI Engineer & Prompt Specialist (20%)
-   - **Tasks:** Connected Gemini/Hugging Face API, designed prompts, and formatted JSON output.
+   - **Tasks:** Connected Gemini/Vilao, designed prompts, and formatted JSON output.
    - **Presentation (2 mins):** Explained AI model, prompt engineering, and JSON error handling.
 
 4. **Tran Duong Khoa** - Tester & Live Demo Presenter (20%)
