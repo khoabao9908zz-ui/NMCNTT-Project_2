@@ -3,25 +3,25 @@
 > Introduction to Information Technology Project - HCMUS
 
 ## Introduction
-This application utilizes Google Gemini 1.5 Flash API combined with a Streamlit web interface to assist users in classifying waste (Organic, Inorganic, Recyclable) through photos taken directly via Webcam or uploaded from a computer[cite: 1, 2].
+This application utilizes Google Gemini 1.5 Flash API combined with a Streamlit web interface to assist users in classifying waste (Organic, Inorganic, Recyclable) through photos taken directly via Webcam or uploaded from a computer.
 
 ## Key Features
-- **Recognition via Camera / Image:** Capture photos directly or upload waste images to the system[cite: 2].
-- **Automated Classification:** AI analyzes images and accurately classifies waste categories[cite: 1, 2].
+- **Recognition via Camera / Image:** Capture photos directly or upload waste images to the system.
+- **Automated Classification:** AI analyzes images and accurately classifies waste categories.
 - **Disposal Instructions:** Suggests corresponding trash bin colors and provides safe waste disposal guidelines.
 
 ## Tech Stack & Repository Structure
-- **Language:** Python 3.15
-- **Frontend / UI:** Streamlit (`WASTE_CLASSIFICATION.py`)[cite: 2, 9, 10]
-- **AI Model:** Google Gemini Vision API (`gemini-1.5-flash`)[cite: 1, 2]
-- **Dataset:** `test_dataset` folder for model evaluation[cite: 9, 10]
+- **Language:** Python 3.15.
+- **Frontend / UI:** Streamlit (`WASTE_CLASSIFICATION.py`).
+- **AI Model:** Google Gemini Vision API (`gemini-1.5-flash`).
+- **Dataset:** `test_dataset` folder for model evaluation.
 
 ## Team Members & Contribution Split
-1. **Member 1:** Team Leader & Frontend Streamlit Developer (20%)[cite: 2]
-2. **Member 2:** Backend Gemini API Developer (20%)[cite: 1, 2]
-3. **Member 3:** Domain & Prompt Engineering Expert (20%)[cite: 2]
-4. **Tran Duong Khoa:** Tester & Documentation Lead (20%)[cite: 4]
-5. **Member 5:** Final Report & Presentation Specialist (20%)[cite: 3]
+1. **Member 1:** Team Leader & Frontend Streamlit Developer (20%).
+2. **Member 2:** Backend Gemini API Developer (20%).
+3. **Member 3:** Domain & Prompt Engineering Expert (20%).
+4. **Tran Duong Khoa:** Tester & Documentation Lead (20%).
+5. **Member 5:** Final Report & Presentation Specialist (20%).
 
 ## Installation & Execution Guide
 
