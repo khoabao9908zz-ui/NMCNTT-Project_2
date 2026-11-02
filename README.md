@@ -3,7 +3,7 @@
 > Introduction to Information Technology Project - HCMUS
 
 ## Introduction
-This application utilizes Google Gemini 1.5 Flash API combined with a Streamlit web interface to assist users in classifying waste (Organic, Inorganic, Recyclable) through photos taken directly via Webcam or uploaded from a computer.
+This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit web interface to assist users in classifying waste (Organic, Inorganic, Recyclable) through photos taken directly via Webcam or uploaded from a computer.
 
 ## Key Features
 - **Recognition via Camera / Image:** Capture photos directly or upload waste images to the system.
@@ -13,7 +13,7 @@ This application utilizes Google Gemini 1.5 Flash API combined with a Streamlit 
 ## Tech Stack & Repository Structure
 - **Language:** Python 3.15.
 - **Frontend / UI:** Streamlit (`WASTE_CLASSIFICATION.py`).
-- **AI Model:** Google Gemini Vision API (`gemini-1.5-flash`).
+- **AI Model:** Google Gemini Vision API (`gemini-3.8-flash`).
 - **Dataset:** `test_dataset` folder for model evaluation.
 
 ## Team Members & Contributions
