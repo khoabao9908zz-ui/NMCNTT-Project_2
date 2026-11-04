@@ -43,9 +43,12 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
 git clone [https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git](https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git)
 cd NMCNTT-Project_2
 ```
+### 2. Install required dependencies
 ```cmd
 pip install streamlit google-genai pillow
 ```
+### 3. Set API Key & Run Application
 ```cmd
+set VILAO_API_KEY=sk-f60cda36048b97e53325cca24e58f122d6e34a07b6124780204a17f9f168c4f9
 streamlit run WASTE_CLASSIFICATION.py
 ```
