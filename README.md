@@ -15,28 +15,27 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
 - **AI Model:** Google Gemini Vision API (`gemini-3.8-flash`).
 - **Dataset:** `test_dataset` folder for model evaluation.
 
-## Team Members & Contributions
+##  Team Members & Contribution Split (20% per member)
 
-1. **Thien Le Dung Huy** - Team Leader & Core UI (20%)
-   - **Tasks:** Managed timeline, built Streamlit layout/tabs, and integrated all modules.
-   - **Presentation (1-1.5 mins):** Introduced team/topic, student pain points, and product overview.
+1. **Thien Le Dung Huy** - Team Leader & AI Lead (20%)
+   - **Tasks:** Managed project timeline on Trello/GitHub, selected AI vision model, and reviewed final reports.
+   - **Presentation (1.5 mins):** Introduced team/topic, project goals, and high-level architecture.
 
-2. **Le Duy Tan** - Backend & PDF Data Pipeline (20%)
+2. **Le Duy Tan** - AI & Data Engineer (20%)
    - **Tasks:** Tested and optimized image classification model, collected test datasets, and wrote image processing scripts.
    - **Presentation (2 mins):** Explained AI model selection, dataset preparation, and image prediction pipeline.
 
-3. **Tran Nhat Nam** - AI Engineer & Prompt Specialist (20%)
+3. **Tran Nhat Nam** - Full-stack / UI Developer (20%)
    - **Tasks:** Built Streamlit web interface, integrated model backend with UI, and handled image upload/capture features.
    - **Presentation (2 mins):** Demonstrated UI design, frontend-backend integration, and real-time result rendering.
 
-4. **Tran Duong Khoa** - Tester & Live Demo Presenter (20%)
-   - **Tasks:** Tested UI/AI with real slides, reported bugs, recorded demo video, and created `README.md`.
-   - **Presentation (2.5 mins):** Conducted live product demo and presented AI accuracy/speed results.
+4. **Tran Duong Khoa** - Tester & Documentation Lead (20%)
+   - **Tasks:** Tested app across various conditions, logged bugs, authored `Report.pdf`, and managed GitHub `README.md`.
+   - **Presentation (2.5 mins):** Conducted live app testing, evaluated accuracy/response speed, and presented test results.
 
-5. **Luu Nhien Huy** - Documentation, Slide & Summary (20%)
-   - **Tasks:** Authored Progress/Final Reports, designed slides.
-   - **Presentation (2 mins):** Summarized achievements, future improvements, and hosted Q&A..
-
+5. **Luu Nhien Huy** - Design & Media Lead (20%)
+   - **Tasks:** Designed presentation slides (`Slide.pdf`), produced demo videos/screenshots, and prepared Q&A script.
+   - **Presentation (2 mins):** Summarized achievements, outlined future improvements, and hosted Q&A session.
 ## Installation & Execution Guide
 
 ### 1. Clone the repository
