@@ -36,19 +36,16 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
 5. **Luu Nhien Huy** - Design & Media Lead (20%)
    - **Tasks:** Designed presentation slides (`Slide.pdf`), produced demo videos/screenshots, and prepared Q&A script.
    - **Presentation (2 mins):** Summarized achievements, outlined future improvements, and hosted Q&A session.
-## Installation & Execution Guide
+## 💻 Installation & Execution Guide (Windows CMD)
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git
+```cmd
+git clone [https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git](https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git)
 cd NMCNTT-Project_2
 ```
-### 2.Install required dependencies
-```bash
+```cmd
 pip install streamlit google-genai pillow
 ```
-### 3.Run the Streamlit Application
-```bash
+```cmd
 streamlit run WASTE_CLASSIFICATION.py
 ```
-
