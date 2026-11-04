@@ -18,7 +18,7 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
 ##  Team Members & Contribution Split (20% per member)
 
 1. **Thien Le Dung Huy** - Team Leader & AI Lead (20%)
-   - **Tasks:** Managed project timeline on Trello/GitHub, selected AI vision model, and reviewed final reports.
+   - **Tasks:** Managed project timeline on GitHub, selected AI vision model, and reviewed final reports.
    - **Presentation (1.5 mins):** Introduced team/topic, project goals, and high-level architecture.
 
 2. **Le Duy Tan** - AI & Data Engineer (20%)
