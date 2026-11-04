@@ -45,7 +45,7 @@ cd NMCNTT-Project_2
 ```
 ### 2.Install required dependencies
 ```bash
-pip install -r requirements.txt
+pip install streamlit google-genai pillow
 ```
 ### 3.Run the Streamlit Application
 ```bash
