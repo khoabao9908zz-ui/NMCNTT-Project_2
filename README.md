@@ -40,5 +40,15 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git](https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git)
+git clone https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git
 cd NMCNTT-Project_2
+```
+### 2.Install required dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3.Run the Streamlit Application
+```bash
+streamlit run WASTE_CLASSIFICATION.py
+```
+
