@@ -30,7 +30,7 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
    - **Presentation (2 mins):** Demonstrated UI design, frontend-backend integration, and real-time result rendering.
 
 4. **Tran Duong Khoa** - Tester & Documentation Lead (20%)
-   - **Tasks:** Tested app across various conditions, logged bugs, authored `Report.pdf`, and managed GitHub `README.md`.
+   - **Tasks:** Tested app across various conditions, logged bugs, and managed GitHub `README.md`.
    - **Presentation (2.5 mins):** Conducted live app testing, evaluated accuracy/response speed, and presented test results.
 
 5. **Luu Nhien Huy** - Design & Media Lead (20%)
