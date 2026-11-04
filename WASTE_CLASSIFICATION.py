@@ -62,25 +62,40 @@ CLASSES_MAP = {
 }
 
 # ----------------------------------------------------------------------------
-# 3. GIAO DIỆN (CSS TƯƠI MÁT, HIỆN ĐẠI)
+# 3. GIAO DIỆN RESPONSIVE
 # ----------------------------------------------------------------------------
 st.markdown(
     """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    html { font-size: 130%; }
     html, body, [class*="css"], .stMarkdown, button, input, textarea {
         font-family: 'Plus Jakarta Sans', sans-serif !important;
     }
-    .block-container { padding-top: 2rem; max-width: 1200px; }
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    .block-container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 2rem clamp(1rem, 4vw, 2.5rem);
+    }
     .stApp { background-color: #F8FAF9; }
+    [data-testid="stHorizontalBlock"],
+    [data-testid="stColumn"] { min-width: 0; }
+    [data-testid="stMarkdownContainer"] { overflow-wrap: anywhere; }
+    img, video, canvas { max-width: 100%; height: auto; }
 
     .hero {
-        background: linear-gradient(135deg, #0F766E 0%, #14B8A6 100%); 
-        color: #FFFFFF; border-radius: 16px; padding: 2rem 2.5rem; margin-bottom: 1.5rem;
+        background: linear-gradient(135deg, #0F766E 0%, #14B8A6 100%);
+        color: #FFFFFF; border-radius: 16px; padding: clamp(1.25rem, 4vw, 2rem) clamp(1rem, 5vw, 2.5rem); margin-bottom: 1.5rem;
         box-shadow: 0 10px 25px -5px rgba(20, 184, 166, 0.2);
     }
-    .hero h1 { color: #FFFFFF; font-weight: 800; font-size: 2.2rem; margin: 0 0 .4rem 0; }
-    .hero p  { color: #E6FFFA; margin: 0; font-size: 1.1rem; }
+    .hero h1 { color: #FFFFFF; font-weight: 800; font-size: clamp(1.5rem, 4vw, 2.2rem); line-height: 1.2; margin: 0 0 .5rem; }
+    .hero p  { color: #E6FFFA; margin: 0; font-size: clamp(1rem, 2.5vw, 1.1rem); line-height: 1.5; }
 
     .result-card {
         border-radius: 14px; padding: 1.5rem; margin-bottom: 1rem;
@@ -98,6 +113,49 @@ st.markdown(
     div[data-testid="stMetric"] [data-testid="stMetricValue"] { color: #0F766E !important; font-weight: 800 !important; }
     section[data-testid="stSidebar"] { background-color: #F0FDF4; border-right: 1px solid #DCFCE7; }
     .footer { text-align: center; color: #64748B; font-size: 0.9rem; margin-top: 3rem; padding: 1rem 0; border-top: 1px solid #E2E8F0; }
+    .stTabs [data-baseweb="tab-list"] {
+        gap: .25rem;
+        overflow-x: auto;
+        scrollbar-width: thin;
+    }
+    .stTabs [data-baseweb="tab"] {
+        flex: 0 0 auto;
+        min-height: 44px;
+        white-space: nowrap;
+    }
+    .stButton button,
+    [data-testid="stFileUploader"] button {
+        min-height: 44px;
+    }
+
+    @media (max-width: 768px) {
+        .block-container { padding: 1.25rem 1rem 2rem; }
+        [data-testid="stHorizontalBlock"] {
+            flex-direction: column !important;
+            align-items: stretch !important;
+            gap: 1rem !important;
+        }
+        [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+            width: 100% !important;
+            min-width: 0 !important;
+            flex: 1 1 100% !important;
+        }
+        .result-card { padding: 1.125rem; }
+        .stTabs [data-baseweb="tab"] { padding-inline: .75rem; }
+        [data-testid="stRadio"] [role="radiogroup"] {
+            flex-wrap: wrap;
+            gap: .5rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .block-container { padding: 1rem .75rem 1.5rem; }
+        .hero { border-radius: 12px; margin-bottom: 1rem; }
+        .hero h1 { font-size: 1.5rem; }
+        .result-card { padding: 1rem; border-left-width: 5px; }
+        div[data-testid="stMetric"] { padding: .875rem; }
+        .footer { margin-top: 2rem; font-size: .8rem; }
+    }
     </style>
     """,
     unsafe_allow_html=True,
