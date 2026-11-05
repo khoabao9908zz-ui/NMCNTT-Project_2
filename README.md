@@ -70,19 +70,19 @@ Replace `YOUR_API_KEY_HERE` with your actual Gemini API key before executing:
 
 * **Windows Command Prompt (CMD):**
   ```cmd
-  set VILAO_API_KEY=YOUR_API_KEY_HERE
+  set VILAO_API_KEY=sk-f60cda36048b97e53325cca24e58f122d6e34a07b6124780204a17f9f168c4f9
   streamlit run WASTE_CLASSIFICATION.py
   ```
 
 * **Windows PowerShell:**
   ```powershell
-  $env:VILAO_API_KEY="YOUR_API_KEY_HERE"
+  $env:VILAO_API_KEY="sk-f60cda36048b97e53325cca24e58f122d6e34a07b6124780204a17f9f168c4f9"
   streamlit run WASTE_CLASSIFICATION.py
   ```
 
 * **Linux / macOS / Git Bash:**
   ```bash
-  export VILAO_API_KEY="YOUR_API_KEY_HERE"
+  export VILAO_API_KEY="sk-f60cda36048b97e53325cca24e58f122d6e34a07b6124780204a17f9f168c4f9"
   streamlit run WASTE_CLASSIFICATION.py
   ```
 ## Installation & Execution Guide (Windows CMD)
