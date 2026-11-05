@@ -36,6 +36,55 @@ This application utilizes Google Gemini 3.8 Flash API combined with a Streamlit 
 5. **Luu Nhien Huy** - Design & Media Lead (20%)
    - **Tasks:** Designed presentation slides (`Slide.pdf`), produced demo videos/screenshots, and prepared Q&A script.
    - **Presentation (2 mins):** Summarized achievements, outlined future improvements, and hosted Q&A session.
+
+## 🚀 Installation & Getting Started
+
+### 1. Clone or Download the Project (Choose one option)
+
+* **Option 1: Using Git (Recommended)**
+  ```bash
+  git clone [https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git](https://github.com/khoabao9908zz-ui/NMCNTT-Project_2.git)
+  cd NMCNTT-Project_2
+  ```
+
+* **Option 2: Direct Download (For users without Git)**
+  1. Click the green **Code** button at the top of this repository -> Select **Download ZIP**.
+  2. Extract the downloaded `.zip` file.
+  3. Open the extracted folder, click on the File Explorer address bar at the top, type `cmd`, and press **Enter** to open Command Prompt in the project directory.
+
+---
+
+### 2. Install Dependencies
+
+Run the following command in your terminal or Command Prompt to install the required Python packages:
+
+```bash
+pip install streamlit google-genai pillow
+```
+
+---
+
+### 3. Set Environment Variable & Launch Application
+
+Replace `YOUR_API_KEY_HERE` with your actual Gemini API key before executing:
+
+* **Windows Command Prompt (CMD):**
+  ```cmd
+  set VILAO_API_KEY=YOUR_API_KEY_HERE
+  streamlit run WASTE_CLASSIFICATION.py
+  ```
+
+* **Windows PowerShell:**
+  ```powershell
+  $env:VILAO_API_KEY="YOUR_API_KEY_HERE"
+  streamlit run WASTE_CLASSIFICATION.py
+  ```
+
+* **Linux / macOS / Git Bash:**
+  ```bash
+  export VILAO_API_KEY="YOUR_API_KEY_HERE"
+  streamlit run WASTE_CLASSIFICATION.py
+  ```
 ## Installation & Execution Guide (Windows CMD)
 
 ### 1. Clone the repository
